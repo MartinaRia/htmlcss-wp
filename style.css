@@ -80,9 +80,15 @@ nav li{
   font-size: 0.75em;
   font-weight: 300;
   text-transform: uppercase;
-  padding: 20px;
+  padding: 13px 20px;
   text-shadow: 1px 1px rgba(0, 0, 0, .4);
 }
+/* hover nav*/
+nav li:hover{
+  background: rgba(0, 0, 0, .4);
+  cursor: pointer;
+}
+
 
 /* MAIN */
 aside, #center{
@@ -138,6 +144,14 @@ ul{
 
 #left li{
   color: #99cc33;
+  padding: 5px 0px 5px 10px;
+}
+
+  /* hover su menu */
+#left li:hover{
+  background: #f5f5f5;
+  cursor: pointer;
+  border-top: solid 2px lightgrey;
 }
 
 /* section center */
@@ -250,4 +264,11 @@ footer{
   content: "";
   display: table;
   clear: both;
+}
+
+/* social */
+#social-menu li{
+  border-radius: 100%;
+  background: #f0f0f0;
+  padding: 10px 20px;
 }
