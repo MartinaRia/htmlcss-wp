@@ -3,6 +3,9 @@ body{
   background-repeat: repeat;
   background-attachment: scroll;
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  line-height: 2;
+  font-weight: 300;
+  color: #666666;
 }
 
 *{
@@ -124,7 +127,6 @@ h4{
   color: #504741;
   font-family: 'Montserrat', 'Helvetica Neue', Arial, sans-serif;
   font-weight: 300;
-  line-height: 1.4;
   margin: 4px 0px;
   padding: 4px 0px;
 }
