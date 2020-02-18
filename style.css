@@ -82,7 +82,19 @@ nav li{
   text-transform: uppercase;
   padding: 13px 20px;
   text-shadow: 1px 1px rgba(0, 0, 0, .4);
+  border-right: solid 1px rgba(0, 0, 0, .4);
+  border-left: solid 1px #ffffff33;
+  float: left;
 }
+
+nav li:first-child{
+  border-left: none;
+}
+
+nav li:last-child{
+  border-right:none;
+}
+
 /* hover nav*/
 nav li:hover{
   background: rgba(0, 0, 0, .4);
